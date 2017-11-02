@@ -1,23 +1,16 @@
-import bintray.Keys._
-
 organization := "com.typesafe"
 
 name := "sbt-sdlc"
 
-version := "0.1"
+version := "0.2-SNAPSHOT"
 
-scalaVersion := "2.10.3"
+scalaVersion := "2.12.4"
 
-libraryDependencies += "org.jsoup" % "jsoup" % "1.7.3"
+libraryDependencies += "org.jsoup" % "jsoup" % "1.10.3"
 
 sbtPlugin := true
 
-publishMavenStyle := false
-
-bintrayPublishSettings
-
-repository in bintray := "sbt-plugins"
+publishMavenStyle := true
 
 licenses += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0.html"))
 
-bintrayOrganization in bintray := None
