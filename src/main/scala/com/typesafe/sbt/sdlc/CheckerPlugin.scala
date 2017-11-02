@@ -3,7 +3,7 @@ package com.typesafe.sbt.sdlc
 import sbt._
 import Keys._
 
-object Plugin extends sbt.Plugin {
+object Plugin  {
   val sdlcDocDir = settingKey[File]("The directory containing scaladoc output")
   val sdlcBase = settingKey[String]("The base URI of the scaladoc output")
   val sdlcCheckDir = settingKey[File]("The directory containing HTML files to check")
