@@ -4,7 +4,7 @@ name := "sbt-sdlc"
 
 version := "0.2-SNAPSHOT"
 
-scalaVersion := "2.12.4"
+scalaVersion := "2.10.6"
 
 libraryDependencies += "org.jsoup" % "jsoup" % "1.10.3"
 
